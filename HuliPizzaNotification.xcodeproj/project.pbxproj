@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E163AABF1E2555E40050FFF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E163AABE1E2555E40050FFF6 /* AppDelegate.swift */; };
+		E163AAC11E2555E40050FFF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E163AAC01E2555E40050FFF6 /* ViewController.swift */; };
+		E163AAC41E2555E40050FFF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E163AAC21E2555E40050FFF6 /* Main.storyboard */; };
+		E163AAC61E2555E40050FFF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E163AAC51E2555E40050FFF6 /* Assets.xcassets */; };
+		E163AAC91E2555E40050FFF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E163AAC71E2555E40050FFF6 /* LaunchScreen.storyboard */; };
+		E163AAD41E2555E40050FFF6 /* HuliPizzaNotificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E163AAD31E2555E40050FFF6 /* HuliPizzaNotificationTests.swift */; };
+		E163AADF1E2555E40050FFF6 /* HuliPizzaNotificationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E163AADE1E2555E40050FFF6 /* HuliPizzaNotificationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E163AAD01E2555E40050FFF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E163AAB31E2555E40050FFF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E163AABA1E2555E40050FFF6;
+			remoteInfo = HuliPizzaNotification;
+		};
+		E163AADB1E2555E40050FFF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E163AAB31E2555E40050FFF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E163AABA1E2555E40050FFF6;
+			remoteInfo = HuliPizzaNotification;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E163AABB1E2555E40050FFF6 /* HuliPizzaNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuliPizzaNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E163AABE1E2555E40050FFF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E163AAC01E2555E40050FFF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E163AAC31E2555E40050FFF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E163AAC51E2555E40050FFF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E163AAC81E2555E40050FFF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E163AACA1E2555E40050FFF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E163AACF1E2555E40050FFF6 /* HuliPizzaNotificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuliPizzaNotificationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E163AAD31E2555E40050FFF6 /* HuliPizzaNotificationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuliPizzaNotificationTests.swift; sourceTree = "<group>"; };
+		E163AAD51E2555E40050FFF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E163AADA1E2555E40050FFF6 /* HuliPizzaNotificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuliPizzaNotificationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E163AADE1E2555E40050FFF6 /* HuliPizzaNotificationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuliPizzaNotificationUITests.swift; sourceTree = "<group>"; };
+		E163AAE01E2555E40050FFF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E163AAB81E2555E40050FFF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E163AACC1E2555E40050FFF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E163AAD71E2555E40050FFF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E163AAB21E2555E40050FFF6 = {
+			isa = PBXGroup;
+			children = (
+				E163AABD1E2555E40050FFF6 /* HuliPizzaNotification */,
+				E163AAD21E2555E40050FFF6 /* HuliPizzaNotificationTests */,
+				E163AADD1E2555E40050FFF6 /* HuliPizzaNotificationUITests */,
+				E163AABC1E2555E40050FFF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E163AABC1E2555E40050FFF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E163AABB1E2555E40050FFF6 /* HuliPizzaNotification.app */,
+				E163AACF1E2555E40050FFF6 /* HuliPizzaNotificationTests.xctest */,
+				E163AADA1E2555E40050FFF6 /* HuliPizzaNotificationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E163AABD1E2555E40050FFF6 /* HuliPizzaNotification */ = {
+			isa = PBXGroup;
+			children = (
+				E163AABE1E2555E40050FFF6 /* AppDelegate.swift */,
+				E163AAC01E2555E40050FFF6 /* ViewController.swift */,
+				E163AAC21E2555E40050FFF6 /* Main.storyboard */,
+				E163AAC51E2555E40050FFF6 /* Assets.xcassets */,
+				E163AAC71E2555E40050FFF6 /* LaunchScreen.storyboard */,
+				E163AACA1E2555E40050FFF6 /* Info.plist */,
+			);
+			path = HuliPizzaNotification;
+			sourceTree = "<group>";
+		};
+		E163AAD21E2555E40050FFF6 /* HuliPizzaNotificationTests */ = {
+			isa = PBXGroup;
+			children = (
+				E163AAD31E2555E40050FFF6 /* HuliPizzaNotificationTests.swift */,
+				E163AAD51E2555E40050FFF6 /* Info.plist */,
+			);
+			path = HuliPizzaNotificationTests;
+			sourceTree = "<group>";
+		};
+		E163AADD1E2555E40050FFF6 /* HuliPizzaNotificationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E163AADE1E2555E40050FFF6 /* HuliPizzaNotificationUITests.swift */,
+				E163AAE01E2555E40050FFF6 /* Info.plist */,
+			);
+			path = HuliPizzaNotificationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E163AABA1E2555E40050FFF6 /* HuliPizzaNotification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E163AAE31E2555E40050FFF6 /* Build configuration list for PBXNativeTarget "HuliPizzaNotification" */;
+			buildPhases = (
+				E163AAB71E2555E40050FFF6 /* Sources */,
+				E163AAB81E2555E40050FFF6 /* Frameworks */,
+				E163AAB91E2555E40050FFF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HuliPizzaNotification;
+			productName = HuliPizzaNotification;
+			productReference = E163AABB1E2555E40050FFF6 /* HuliPizzaNotification.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E163AACE1E2555E40050FFF6 /* HuliPizzaNotificationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E163AAE61E2555E40050FFF6 /* Build configuration list for PBXNativeTarget "HuliPizzaNotificationTests" */;
+			buildPhases = (
+				E163AACB1E2555E40050FFF6 /* Sources */,
+				E163AACC1E2555E40050FFF6 /* Frameworks */,
+				E163AACD1E2555E40050FFF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E163AAD11E2555E40050FFF6 /* PBXTargetDependency */,
+			);
+			name = HuliPizzaNotificationTests;
+			productName = HuliPizzaNotificationTests;
+			productReference = E163AACF1E2555E40050FFF6 /* HuliPizzaNotificationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E163AAD91E2555E40050FFF6 /* HuliPizzaNotificationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E163AAE91E2555E40050FFF6 /* Build configuration list for PBXNativeTarget "HuliPizzaNotificationUITests" */;
+			buildPhases = (
+				E163AAD61E2555E40050FFF6 /* Sources */,
+				E163AAD71E2555E40050FFF6 /* Frameworks */,
+				E163AAD81E2555E40050FFF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E163AADC1E2555E40050FFF6 /* PBXTargetDependency */,
+			);
+			name = HuliPizzaNotificationUITests;
+			productName = HuliPizzaNotificationUITests;
+			productReference = E163AADA1E2555E40050FFF6 /* HuliPizzaNotificationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E163AAB31E2555E40050FFF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Steven Lipton";
+				TargetAttributes = {
+					E163AABA1E2555E40050FFF6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = P6DBU8DWFF;
+						ProvisioningStyle = Automatic;
+					};
+					E163AACE1E2555E40050FFF6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E163AABA1E2555E40050FFF6;
+					};
+					E163AAD91E2555E40050FFF6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E163AABA1E2555E40050FFF6;
+					};
+				};
+			};
+			buildConfigurationList = E163AAB61E2555E40050FFF6 /* Build configuration list for PBXProject "HuliPizzaNotification" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E163AAB21E2555E40050FFF6;
+			productRefGroup = E163AABC1E2555E40050FFF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E163AABA1E2555E40050FFF6 /* HuliPizzaNotification */,
+				E163AACE1E2555E40050FFF6 /* HuliPizzaNotificationTests */,
+				E163AAD91E2555E40050FFF6 /* HuliPizzaNotificationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E163AAB91E2555E40050FFF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E163AAC91E2555E40050FFF6 /* LaunchScreen.storyboard in Resources */,
+				E163AAC61E2555E40050FFF6 /* Assets.xcassets in Resources */,
+				E163AAC41E2555E40050FFF6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E163AACD1E2555E40050FFF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E163AAD81E2555E40050FFF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E163AAB71E2555E40050FFF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E163AAC11E2555E40050FFF6 /* ViewController.swift in Sources */,
+				E163AABF1E2555E40050FFF6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E163AACB1E2555E40050FFF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E163AAD41E2555E40050FFF6 /* HuliPizzaNotificationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E163AAD61E2555E40050FFF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E163AADF1E2555E40050FFF6 /* HuliPizzaNotificationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E163AAD11E2555E40050FFF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E163AABA1E2555E40050FFF6 /* HuliPizzaNotification */;
+			targetProxy = E163AAD01E2555E40050FFF6 /* PBXContainerItemProxy */;
+		};
+		E163AADC1E2555E40050FFF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E163AABA1E2555E40050FFF6 /* HuliPizzaNotification */;
+			targetProxy = E163AADB1E2555E40050FFF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E163AAC21E2555E40050FFF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E163AAC31E2555E40050FFF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E163AAC71E2555E40050FFF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E163AAC81E2555E40050FFF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E163AAE11E2555E40050FFF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E163AAE21E2555E40050FFF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E163AAE41E2555E40050FFF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P6DBU8DWFF;
+				INFOPLIST_FILE = HuliPizzaNotification/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeapppie.HuliPizzaNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E163AAE51E2555E40050FFF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P6DBU8DWFF;
+				INFOPLIST_FILE = HuliPizzaNotification/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeapppie.HuliPizzaNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E163AAE71E2555E40050FFF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HuliPizzaNotificationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeapppie.HuliPizzaNotificationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HuliPizzaNotification.app/HuliPizzaNotification";
+			};
+			name = Debug;
+		};
+		E163AAE81E2555E40050FFF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HuliPizzaNotificationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeapppie.HuliPizzaNotificationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HuliPizzaNotification.app/HuliPizzaNotification";
+			};
+			name = Release;
+		};
+		E163AAEA1E2555E40050FFF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HuliPizzaNotificationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeapppie.HuliPizzaNotificationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HuliPizzaNotification;
+			};
+			name = Debug;
+		};
+		E163AAEB1E2555E40050FFF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HuliPizzaNotificationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeapppie.HuliPizzaNotificationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HuliPizzaNotification;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E163AAB61E2555E40050FFF6 /* Build configuration list for PBXProject "HuliPizzaNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E163AAE11E2555E40050FFF6 /* Debug */,
+				E163AAE21E2555E40050FFF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E163AAE31E2555E40050FFF6 /* Build configuration list for PBXNativeTarget "HuliPizzaNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E163AAE41E2555E40050FFF6 /* Debug */,
+				E163AAE51E2555E40050FFF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E163AAE61E2555E40050FFF6 /* Build configuration list for PBXNativeTarget "HuliPizzaNotificationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E163AAE71E2555E40050FFF6 /* Debug */,
+				E163AAE81E2555E40050FFF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E163AAE91E2555E40050FFF6 /* Build configuration list for PBXNativeTarget "HuliPizzaNotificationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E163AAEA1E2555E40050FFF6 /* Debug */,
+				E163AAEB1E2555E40050FFF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E163AAB31E2555E40050FFF6 /* Project object */;
+}
